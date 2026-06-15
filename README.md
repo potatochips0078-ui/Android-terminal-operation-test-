@@ -34,12 +34,12 @@ http://10.50.2.92/course-mobile-week15/
 
 开始运行前先检查：
 
-- Flutter SDK 和本项目路径尽量使用短英文路径，例如 `C:\dev\flutter` 和 `C:\dev\group_flutter_android_demo`，不要放在中文、空格或特殊符号路径下。
-- GitHub 推送不能使用账号密码直接认证；如果 `git push` 报 password authentication removed，请使用 GitHub Desktop、Git Credential Manager 或个人访问令牌。
-- 组长创建 GitHub 仓库时要创建空仓库，不要勾选 README、`.gitignore` 或 license。
-- 手机连接电脑后，USB 模式选择文件传输 / MTP / 传输文件，并在手机上允许 USB 调试。
-- 第一次 `flutter run` 卡在 `Running Gradle task 'assembleDebug'` 时，可能是在下载 Gradle 或 Maven 依赖，先让主电脑完成一次构建，不要全组同时重复下载。
-- 真机照片建议压缩到 2MB 到 5MB 左右，README 图片路径大小写要和文件名完全一致。
+-路径要求：Flutter SDK、项目文件夹均使用纯英文短路径，示例：C:\dev\flutter、C:\dev\group_flutter_android_demo，禁止存放于含中文、空格、特殊符号的目录中。
+-Git 认证：GitHub 已禁用账号密码直接推送，若执行 git push 出现 password authentication removed 提示，请使用 GitHub Desktop、Git 凭据管理器或 GitHub 个人访问令牌完成认证。
+-仓库创建：组长新建 GitHub 原始仓库时，选择创建空仓库，不要勾选 README、.gitignore、License 等选项，防止代码合并冲突。
+-手机连接：手机连接电脑后，USB 模式设置为文件传输（MTP），手动开启开发者选项与 USB 调试，并授权信任当前电脑。
+-首次编译：首次运行 flutter run 卡在 Running Gradle task 'assembleDebug' 为正常依赖下载过程，由主电脑优先完成首次构建，全员不要同步重复操作。
+-图片与文档：真机实拍照片压缩至 2MB–5MB；在 README.md 中引用图片时，路径、文件名大小写必须完全匹配，避免图片加载失败。
 
 ## 运行要求
 
