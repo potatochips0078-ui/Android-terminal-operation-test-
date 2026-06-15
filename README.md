@@ -107,3 +107,4 @@ device
 - 以上照片均由第二部手机拍摄，并非手机直接截图或 Web 截图。
 - 画面中可看到手持的真实 Android 手机正在运行本 Flutter 应用。
 - 照片路径：`images/real-device-1.jpg`、`images/real-device-2.jpg`、`images/real-device-3.jpg`。
+- 
