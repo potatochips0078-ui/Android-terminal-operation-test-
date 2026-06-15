@@ -85,7 +85,7 @@ device
 | 角色 | 修改位置 | 任务 |
 | --- | --- | --- |
 | 组长 | GitHub 仓库 | 创建仓库、维护 main、审核 PR、组织真机运行 |
-| 组员 A | `lib/main.dart` | 修改 `projectTitle` 和 `projectSlogan` |
+| 组员 liujunyu | `lib/main.dart` | 修改 `projectTitle` 和 `projectSlogan` |
 | 组员 B | `lib/main.dart` | 修改 `members` 中的小组成员姓名和分工 |
 | 组员 C | `lib/main.dart` | 修改 `androidTasks` 中的真机运行任务 |
 | 组员 D | `lib/main.dart` 和 `README.md` | 修改 `evidenceNotes`，补充 README 真机照片说明 |
@@ -108,3 +108,4 @@ device
 - 画面中可看到手持的真实 Android 手机正在运行本 Flutter 应用。
 - 照片路径：`images/real-device-1.jpg`、`images/real-device-2.jpg`、`images/real-device-3.jpg`。
 - 
+项目已经完成搭建并且能够运行
